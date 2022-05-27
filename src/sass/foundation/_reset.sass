@@ -1,0 +1,136 @@
+html
+  box-sizing: border-box
+  width: 100%
+  height: 100%
+  min-height: 100vh
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  -webkit-tap-highlight-color: transparent
+  -webkit-text-size-adjust: 100%
+
+*,
+*::before,
+*::after
+  box-sizing: inherit
+  min-height: 0%
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+figure,
+blockquote,
+dl,
+dd,
+small,
+address
+  margin: 0
+  padding: 0
+  font: inherit
+
+body
+  min-height: 100vh
+  overflow-x: hidden
+  -webkit-text-size-adjust: 100%
+  -webkit-font-smoothing: antialiased
+
+main
+  display: block
+  overflow-x: hidden
+
+b,
+strong
+  font-weight: bolder
+
+a
+  color: inherit
+  text-decoration: none
+
+ul,
+ol
+  list-style: none
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video
+  vertical-align: top
+
+img
+  max-width: 100%
+  height: auto
+  border: 0
+
+svg:not([fill])
+  fill: currentColor
+
+svg:not(:root)
+  overflow: hidden
+
+iframe
+  border-style: none
+
+input,
+button,
+select,
+textarea
+  font: inherit
+
+input,
+button
+  overflow: visible
+
+button,
+select
+  text-transform: none
+
+input[type='text']
+  line-height: normal
+
+button,
+[type='submit'],
+[type='reset'],
+[type='button']
+  -webkit-appearance: button
+  cursor: pointer
+
+button::-moz-focus-inner,
+[type='button']::-moz-focus-inner,
+[type='reset']::-moz-focus-inner,
+[type='submit']::-moz-focus-inner
+  border-style: none
+
+button:-moz-focusring,
+[type='button']:-moz-focusring,
+[type='reset']:-moz-focusring,
+[type='submit']:-moz-focusring
+  outline: 1px dotted ButtonText
+
+[type='text']::-ms-clear
+  visibility: hidden
+
+[type='password']::-ms-reveal
+  visibility: hidden
+
+[type='number']::-webkit-outer-spin-button,
+[type='number']::-webkit-inner-spin-button
+  appearance: none
+
+[type='search']
+  -webkit-appearance: textfield
+  outline-offset: -2px
+
+[type='search']::-webkit-search-decoration
+  -webkit-appearance: none
+
+textarea
+  overflow: auto
+  resize: none
